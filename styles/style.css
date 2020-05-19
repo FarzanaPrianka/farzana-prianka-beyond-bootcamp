@@ -235,6 +235,19 @@ template {
   overflow: hidden;
 }
 
+.keyboard {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.letter {
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+}
+
 h1 {
   margin: 0;
   padding: 0;

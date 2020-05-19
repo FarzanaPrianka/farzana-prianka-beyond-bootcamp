@@ -1,0 +1,25 @@
+//when page loads DOM displays the following
+    // a h1 : title of the game
+    // a p tag : instruction on how to play the game
+    // button : to start a game 
+
+//when user clicks on lets play button
+    // title, instructions, lets play button gets removed from the DOM
+    // a key board is generated displaying the word from a-z
+    // a random word is selected from a array of word collection
+    // the programs counts the no of letters in the selected word
+    // the program displays blank lines in the DOM representing each letter of the word
+    // the program displays the "lives left" i.e. 6/6
+
+//when user guess and select letter from the keyboard
+    //the program checks if the letter exists in the word
+            //if the letter exists (for right guess)
+                // letters are displayed in the blank spaces
+            //if the letter does not exist (for wrong guess)
+                //program displays a random message saying that it was wrong
+                //program displays a image representation of the state of hangman
+                //program displays the lives left 
+
+// when lives left =0 
+    // program displays that the game is over
+    //reset all variables 
